@@ -1,0 +1,29 @@
+You are tasked to see if the following question is a valid question:
+Question:
+{question}
+
+Options:
+{options}
+
+Correct Answer:
+{correctAnswer}
+
+hint:
+{hint}
+Explanation:
+{explanation}
+
+The question was rated as {grade}.
+
+Please answer PASS or FAIL or CONFLICT, and follow that up with the reason.
+
+{{
+    "reason": "reason goes here",
+    "status": "PASS OR FAIL OR CONCLIFT GOES HERE"
+}}
+
+Use PASS if high confidence that the question + answer + hint + explanation are *all* correct.
+Use CONFLICT if you have a medium confidence that the question is correct, or if it provides an incomplete explanation.
+Use FAIL if you have low confidence that the question is correct, or if it is highly likely to be false information.
+
+Is this question valid?

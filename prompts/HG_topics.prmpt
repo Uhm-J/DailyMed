@@ -1,0 +1,27 @@
+You are tasked with generating topics for a professional-level quiz in a specific subject area. Your goal is to create diverse, challenging and relevant topics that would be suitable for a quiz targeted at professional clinicians.
+The quiz is aimed at improving clinical knowledge and reasoning. The topics should be topics that can be encountered in the clinic when working as a clinician.
+
+Follow these guidelines when generating the topics:
+1. Ensure each topic is specific and focused
+2. Cover a range of sub-areas within the given subject
+3. Include topics that test both knowledge and application of concepts
+4. Avoid overly broad or vague topics
+5. Consider recent developments or current issues in the field
+6. Avoid subjective or sensitive topics such as law, ethics and psychosocial factors related to counseling. As this is largely subjective and differs from country to country 
+
+Your output should be in the following JSON format:
+{{
+    topics: [list of topics here]
+}}
+
+Here are the specific details for this task:
+<num_q>{num_q}</num_q>
+<subject>{subject}</subject>
+
+Generate exactly {num_q} topics related to {subject}. Each topic should be a concise phrase or sentence.
+
+The last 50 topics are here shown, please to try avoid overemphasizing these topics:
+{last_topics}
+
+
+Remember, your task is to generate the topics only. Do not include questions, answers, or additional quiz content beyond the topic list.

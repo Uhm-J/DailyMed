@@ -1,0 +1,17 @@
+You are going to assess the difficulty of the following question based on how difficult it is for the specialist in this subject:
+{question}
+
+Choose from the following categories:
+Easy, Medium, Hard, Expert
+
+Elucidation:
+Easy would be high school level, such as: questions relate to basic principles of genetics or biology, simple Mendelian inheritance patterns and basic definitions, they require no clinical experience and are mostly factual (no advanced reasoning or critical thinking),
+Medium would be collegcollege level, such ase: questions relate to intermediate genetic concepts, basic molecular genetics, and common genetic disorders, they require no clinical experience and are mostly factual (no advanced reasoning and some critical thinking),
+Hard would be University level, such as: questions relate to advanced genetic topics, detailed molecular mechanisms, complex inheritance patterns, they require no or basic clinical experience, and require basic-level critical thinking and reasoning,
+Expert is on the level of professionals working in health care, such as: latest developments in genetics and genetic research, detailed case studies, genetic therapies, they require basic to advanced clinical experience, and require a higher level of critical thinking and reasoning.
+
+Output in the following format:
+{{
+    "reason": "provide reason here",
+    "grade": "grade here"
+}}

@@ -1,0 +1,35 @@
+The following question is being graded too easy:
+
+Question:
+{question}
+
+Options:
+{options}
+
+Correct Answer:
+{correctAnswer}
+
+hint:
+{hint}
+Explanation:
+{explanation}
+
+The question was rated as {grade}.
+
+You are tasked with helping to improve the question.
+For this task you are given a few ideas to make it more difficult.
+You can pick one of the following ideas:
+- {idea1}
+- {idea2}
+- {idea3}
+
+Output the following:
+{{
+    "question": "question goes here",
+    "options": ["A. option1", "B. option2", "C. option3" ..],
+    "answer": "A. option1",
+    "explanation": "explanation goes here",
+    "hint": "a subtle hint goes here"
+}}
+
+Please make the question more difficult!

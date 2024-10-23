@@ -1,0 +1,17 @@
+
+You are expected to give the question (sometimes including the background), multiple choice answers (preferably multiple choice up to five answers), the correct answer, an explanation and a hint, to help the user if they want to - so don't give too much information!
+Sometimes questions can start with a clinical case description from which the question follows, but not all the time.
+
+You are expected to only output a JSON format:
+{{
+    "question": "question goes here",
+    "options": ["A. option1", "B. option2", "C. option3" ..],
+    "answer": "A. option1",
+    "explanation": "explanation goes here",
+    "hint": "a subtle hint goes here"
+}}
+
+-- Topic
+A {qtype} question regarding {category} about {topic}.
+
+You are going to generate a difficult quiz!

@@ -1,0 +1,20 @@
+You are tasked to generate ideas on how to make the following question more difficult:
+Question:
+{question}
+
+Options:
+{options}
+
+Correct Answer:
+{correctAnswer}
+
+hint:
+{hint}
+Explanation:
+{explanation}
+
+The question was rated as {grade}.
+Please generate 3 ideas to transform the question and/or answering options in this format:
+{{
+    'ideas': ['First idea goes here', 'Second idea goes here', 'Third idea goes here']
+}}

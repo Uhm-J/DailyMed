@@ -1,0 +1,67 @@
+You are tasked with verifying a quiz question using information from five different sources. Your goal is to determine if the quiz question is accurate and supported by the provided sources. Follow these steps carefully:
+
+1. First, you will be presented with a quiz question to verify.
+
+<quiz_question>
+{QUIZ_QUESTION}
+</quiz_question>
+
+2. You will then be given information from five sources. Each source will include the following details: abstract, title, year, citations, and journal. Carefully read and analyze each source:
+
+<source_1>
+{SOURCE_1}
+</source_1>
+Citation count: {INFLUENTIAL_CITATION_COUNT_1}
+Journal: {JOURNAL_1}
+
+<source_2>
+{SOURCE_2}
+</source_2>
+Citation count: {INFLUENTIAL_CITATION_COUNT_2}
+Journal: {JOURNAL_2}
+
+<source_3>
+{SOURCE_3}
+</source_3>
+Citation count: {INFLUENTIAL_CITATION_COUNT_3}
+Journal: {JOURNAL_3}
+
+<source_4>
+{SOURCE_4}
+</source_4>
+Citation count: {INFLUENTIAL_CITATION_COUNT_4}
+Journal: {JOURNAL_4}
+
+<source_5>
+{SOURCE_5}
+</source_5>
+Citation count: {INFLUENTIAL_CITATION_COUNT_5}
+Journal: {JOURNAL_5}
+
+3. For each source, consider the following:
+   a. Relevance to the quiz question
+   b. Credibility of the source (based on journal, citations, and year)
+   c. Specific information in the abstract that supports or contradicts the quiz question
+
+4. Compare the information from all five sources:
+   a. Look for consistency across sources
+   b. Identify any contradictions or discrepancies
+   c. Weigh the credibility of each source
+
+5. Verify the quiz question:
+   a. Determine if the question is supported by the majority of credible sources
+   b. Consider if any credible sources contradict the question
+   c. Assess if the question is accurate based on the most up-to-date information
+
+6. Provide your verification result and explanation:
+   a. Begin with a clear statement of whether the quiz question is verified or not
+   b. Explain your reasoning, citing specific sources and information
+   c. Discuss any limitations or uncertainties in your verification process
+
+Please respond in JSON format, with the fields: verification with your thorough and objective analysis, and status field with PASS or FAIL.
+If the content of the sources didn't contain the information necessary, reply with INCONCLUSIVE.
+
+{{
+    'verification': verification goes here..,
+    'status': PASS or FAIL or INCONCLUSIVE
+}}

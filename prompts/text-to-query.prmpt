@@ -1,0 +1,28 @@
+You will be given a medical question along with its associated answer options, correct answer, explanation, and hint. Your task is to extract a concise search query from this information that captures the core concepts of the question.
+
+Here is the question data:
+<question_data>
+{QUESTION_DATA}
+</question_data>
+
+To extract an effective search query, follow these steps:
+
+1. Identify the key medical concepts in the question. These are typically:
+   - Medical conditions or diseases
+   - Specific proteins, genes, or biological processes
+   - Symptoms or clinical presentations
+
+2. Look for any additional important concepts in the correct answer and explanation that directly relate to the question.
+
+3. Prioritize the most specific and relevant terms. Avoid general medical terms unless they are central to the question.
+
+4. Combine the identified concepts using AND operators. Use MAX 2 concepts for an effective query, since this is for semantic scholar, limit the concepts to 2 words as well.
+
+5. Capitalize the AND operators and keep the medical terms in their original case.
+
+Output your search query in the following format:
+<search_query>
+[Your extracted search query here]
+</search_query>
+
+Remember, the goal is to create a focused search query that will help find information directly related to the core of the question. Avoid including extraneous information or answer options that are not correct.
