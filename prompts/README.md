@@ -1,6 +1,6 @@
 # DailyMed Prompts
 
-![Pipeline workflow](images/workflow.png)
+![Pipeline workflow](images/workflow.jpg)
 
 Figure Step 1: Topic Generation. [(prompt)](HG_topics.prmpt) 
 
