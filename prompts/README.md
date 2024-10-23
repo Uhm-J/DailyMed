@@ -6,7 +6,7 @@ Figure Step 1: Topic Generation. [(prompt)](HG_topics.prmpt)
 
 Figure Step 2: Generate MCQ. [(prompt)](quiz.prmpt) 
 
-Figure Step 3: Semantic Scholar. Keywords extraction [(prompt)](text-to-query.prmpt)
+Figure Step 3: Semantic Scholar. Keyword Extraction [(prompt)](text-to-query.prmpt)
 
 Figure Step 4: Check vailidty [(prompt)](verify-question.prmpt)
 
