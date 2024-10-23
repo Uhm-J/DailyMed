@@ -1,4 +1,5 @@
-# DailyMed
+<img src="images/full-logo.svg" alt="Pipeline workflow" width="50%">
+
 
 Prompts for the quiz generation pipeline used in DailyMed.ai and for the preprint: (in preparation).
 
